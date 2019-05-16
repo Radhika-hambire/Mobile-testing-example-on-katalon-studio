@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginScenario,,,2019-04-26 10:58:13,2019-04-26 10:58:14,1.152s,FAILED
+,,,,,,
+Test Cases/LoginFlow,,,2019-04-26 10:58:13,2019-04-26 10:58:14,0.899s,FAILED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-04-26 10:58:14,2019-04-26 10:58:14,0.213s,FAILED

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To_check_who_added_me_to_favourites</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>b40e2657-b3c1-4ea0-a61b-71a650d7c89f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checking_events</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>c86777d1-ac93-42ee-ac70-f25a1058ce0c</testCaseGuid>
+</TestCaseEntity>

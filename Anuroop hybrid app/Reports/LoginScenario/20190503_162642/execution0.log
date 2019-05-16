@@ -1,0 +1,2934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-03T16:26:44</date>
+  <millis>1556881004556</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/LoginScenario</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">LoginScenario</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/LoginScenario</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:44</date>
+  <millis>1556881004567</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = iauro-qa004 - iauroqa004-System-Product-Name</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">iauro-qa004 - iauroqa004-System-Product-Name</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:44</date>
+  <millis>1556881004568</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Linux 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Linux 64bit</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:44</date>
+  <millis>1556881004568</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.1.1</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:44</date>
+  <millis>1556881004590</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.4.7</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.4.7</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:44</date>
+  <millis>1556881004798</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/To check functionality of Contacts Viewed Profile</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/To check functionality of Contacts Viewed Profile</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/To check functionality of Contacts Viewed Profile</property>
+  <property name="source">\\home\\iauro-qa004\\Katalon Studio\\Anuroop hybrid app\\Test Cases\\To check functionality of Contacts Viewed Profile.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:45</date>
+  <millis>1556881005193</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-03T16:26:57</date>
+  <millis>1556881017343</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 33,657</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041857</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041880</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 461a88f3</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">461a88f3</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041880</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Xiaomi Redmi Note 5 Pro (Android 8.1.0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 5 Pro (Android 8.1.0)</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041881</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Redmi Note 5 Pro</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Redmi Note 5 Pro</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041881</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041881</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041882</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 8.1.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">8.1.0</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041884</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041885</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041885</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Enter username\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041898</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Enter username</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041899</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Enter username\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041899</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/Username\&amp;quot;), \&amp;quot;MB07120121\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:21</date>
+  <millis>1556881041928</millis>
+  <sequence>27</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:26</date>
+  <millis>1556881046580</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;MB07120121&amp;apos; has been set to element &amp;apos;Object Repository/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:26</date>
+  <millis>1556881046581</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/Username\&amp;quot;), \&amp;quot;MB07120121\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:26</date>
+  <millis>1556881046581</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049591</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049794</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049795</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Enter password\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049796</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Enter password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049797</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Enter password\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049797</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;anuroop50\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:29</date>
+  <millis>1556881049806</millis>
+  <sequence>40</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:30</date>
+  <millis>1556881050589</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;anuroop50&amp;apos; has been set to element &amp;apos;Object Repository/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:30</date>
+  <millis>1556881050590</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;anuroop50\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:30</date>
+  <millis>1556881050590</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055597</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055598</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055598</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055599</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055599</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055600</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055600</millis>
+  <sequence>51</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;----------------------------- Page Information : \&amp;quot; + driver.getPageSource())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055946</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>----------------------------- Page Information : &amp;lt;?xml version=\&amp;quot;1.0\&amp;quot; encoding=\&amp;quot;UTF-8\&amp;quot;?&amp;gt;&amp;lt;hierarchy rotation=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.FrameLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.FrameLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,0][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.LinearLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.LinearLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,0][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.FrameLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.FrameLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;android:id/content\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.webkit.WebView index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.webkit.WebView\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.webkit.WebView index=\&amp;quot;0\&amp;quot; text=\&amp;quot;Anuroop\&amp;quot; class=\&amp;quot;android.webkit.WebView\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;true\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;2\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;3\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;4\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,198][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;5\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[319,198][761,561]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;6\&amp;quot;/&amp;gt;&amp;lt;android.view.View index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,651][1080,767]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;7\&amp;quot;&amp;gt;&amp;lt;android.widget.EditText index=\&amp;quot;0\&amp;quot; text=\&amp;quot;MB07120121\&amp;quot; class=\&amp;quot;android.widget.EditText\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,651][1001,767]\&amp;quot; resource-id=\&amp;quot;username\&amp;quot; instance=\&amp;quot;0\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.view.View index=\&amp;quot;2\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,816][1001,932]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;8\&amp;quot;&amp;gt;&amp;lt;android.widget.EditText index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\&amp;quot; class=\&amp;quot;android.widget.EditText\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;true\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[137,827][825,924]\&amp;quot; resource-id=\&amp;quot;password\&amp;quot; instance=\&amp;quot;1\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button NAF=\&amp;quot;true\&amp;quot; index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[836,819][948,935]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;3\&amp;quot; text=\&amp;quot;LOGIN\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,1012][1001,1135]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;/&amp;gt;&amp;lt;android.view.View index=\&amp;quot;4\&amp;quot; text=\&amp;quot;Forgot Password?\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,1188][1080,1240]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;9\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;5\&amp;quot; text=\&amp;quot;Don&amp;apos;t have an account? Register\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[107,1320][973,1416]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;2\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;6\&amp;quot; text=\&amp;quot;By logging in I accept the terms and conditions\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,1413][1080,1465]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;3\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.view.View index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[1061,66][1075,2026]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;10\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.webkit.WebView&amp;gt;&amp;lt;/android.webkit.WebView&amp;gt;&amp;lt;/android.widget.FrameLayout&amp;gt;&amp;lt;/android.widget.LinearLayout&amp;gt;&amp;lt;/android.widget.FrameLayout&amp;gt;&amp;lt;/hierarchy&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055949</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;----------------------------- Page Information : \&amp;quot; + driver.getPageSource())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055950</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAttribute(findTestObject(\&amp;quot;Login/Login\&amp;quot;), \&amp;quot;text\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:35</date>
+  <millis>1556881055964</millis>
+  <sequence>58</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056398</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Login/Login&amp;apos; has attribute &amp;apos;text&amp;apos; is &amp;apos;LOGIN&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056399</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAttribute(findTestObject(\&amp;quot;Login/Login\&amp;quot;), \&amp;quot;text\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056399</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Click on Login button\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056400</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on Login button</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056401</millis>
+  <sequence>63</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Click on Login button\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056401</millis>
+  <sequence>64</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Login/Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:36</date>
+  <millis>1556881056411</millis>
+  <sequence>68</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:37</date>
+  <millis>1556881057497</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Login/Login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:37</date>
+  <millis>1556881057497</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Login/Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:37</date>
+  <millis>1556881057497</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/Choose a type of match\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:37</date>
+  <millis>1556881057513</millis>
+  <sequence>75</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:42</date>
+  <millis>1556881062243</millis>
+  <sequence>76</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Home Page/Choose a type of match&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:42</date>
+  <millis>1556881062243</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/Choose a type of match\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:42</date>
+  <millis>1556881062243</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:42</date>
+  <millis>1556881062249</millis>
+  <sequence>82</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:43</date>
+  <millis>1556881063090</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Home Page/More&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:43</date>
+  <millis>1556881063092</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:43</date>
+  <millis>1556881063092</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:43</date>
+  <millis>1556881063097</millis>
+  <sequence>89</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:46</date>
+  <millis>1556881066343</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Home Page/More&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:46</date>
+  <millis>1556881066343</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:46</date>
+  <millis>1556881066343</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;More Page/About\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:46</date>
+  <millis>1556881066348</millis>
+  <sequence>96</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:47</date>
+  <millis>1556881067191</millis>
+  <sequence>97</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/More Page/About&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:47</date>
+  <millis>1556881067192</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;More Page/About\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:47</date>
+  <millis>1556881067192</millis>
+  <sequence>99</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:48</date>
+  <millis>1556881068194</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:48</date>
+  <millis>1556881068194</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:48</date>
+  <millis>1556881068194</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;More Page/Contacts Viewed Profile\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:49</date>
+  <millis>1556881069612</millis>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/More Page/Contacts Viewed Profile&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:49</date>
+  <millis>1556881069612</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;More Page/Contacts Viewed Profile\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:49</date>
+  <millis>1556881069613</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:50</date>
+  <millis>1556881070614</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:50</date>
+  <millis>1556881070615</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:50</date>
+  <millis>1556881070615</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;More Page/Contact Viewed Profiles back button\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:50</date>
+  <millis>1556881070629</millis>
+  <sequence>117</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:53</date>
+  <millis>1556881073048</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/More Page/Contact Viewed Profiles back button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:53</date>
+  <millis>1556881073049</millis>
+  <sequence>119</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;More Page/Contact Viewed Profiles back button\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:53</date>
+  <millis>1556881073049</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/To check functionality of Contacts Viewed Profile</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:53</date>
+  <millis>1556881073049</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/To check functionality of Contacts Viewed Profile</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:27:53</date>
+  <millis>1556881073067</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Checking About button functionality</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Checking About button functionality</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Checking About button functionality</property>
+  <property name="source">\\home\\iauro-qa004\\Katalon Studio\\Anuroop hybrid app\\Test Cases\\Checking About button functionality.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-03T16:27:53</date>
+  <millis>1556881073179</millis>
+  <sequence>124</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096640</millis>
+  <sequence>127</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096670</millis>
+  <sequence>128</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 461a88f3</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">461a88f3</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096670</millis>
+  <sequence>129</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Xiaomi Redmi Note 5 Pro (Android 8.1.0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 5 Pro (Android 8.1.0)</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096670</millis>
+  <sequence>130</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Redmi Note 5 Pro</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Redmi Note 5 Pro</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096670</millis>
+  <sequence>131</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096671</millis>
+  <sequence>132</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096671</millis>
+  <sequence>133</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 8.1.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">8.1.0</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096674</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096675</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096675</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Enter username\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096676</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Enter username</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096677</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Enter username\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096677</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/Username\&amp;quot;), \&amp;quot;MB07120121\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:16</date>
+  <millis>1556881096681</millis>
+  <sequence>143</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:21</date>
+  <millis>1556881101242</millis>
+  <sequence>144</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;MB07120121&amp;apos; has been set to element &amp;apos;Object Repository/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:21</date>
+  <millis>1556881101243</millis>
+  <sequence>145</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/Username\&amp;quot;), \&amp;quot;MB07120121\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:21</date>
+  <millis>1556881101243</millis>
+  <sequence>146</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104187</millis>
+  <sequence>147</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104446</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104446</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Enter password\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104447</millis>
+  <sequence>150</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Enter password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104447</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Enter password\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104447</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;anuroop50\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:24</date>
+  <millis>1556881104451</millis>
+  <sequence>156</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:25</date>
+  <millis>1556881105229</millis>
+  <sequence>157</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;anuroop50&amp;apos; has been set to element &amp;apos;Object Repository/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:25</date>
+  <millis>1556881105230</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;anuroop50\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:25</date>
+  <millis>1556881105230</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110236</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110237</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110237</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110237</millis>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110237</millis>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110238</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110238</millis>
+  <sequence>167</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;----------------------------- Page Information : \&amp;quot; + driver.getPageSource())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110568</millis>
+  <sequence>168</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>----------------------------- Page Information : &amp;lt;?xml version=\&amp;quot;1.0\&amp;quot; encoding=\&amp;quot;UTF-8\&amp;quot;?&amp;gt;&amp;lt;hierarchy rotation=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.FrameLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.FrameLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,0][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.LinearLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.LinearLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,0][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.FrameLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.FrameLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;android:id/content\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.webkit.WebView index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.webkit.WebView\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.webkit.WebView index=\&amp;quot;0\&amp;quot; text=\&amp;quot;Anuroop\&amp;quot; class=\&amp;quot;android.webkit.WebView\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;true\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;2\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;3\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;4\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,198][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;5\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[319,198][761,561]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;6\&amp;quot;/&amp;gt;&amp;lt;android.view.View index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,651][1080,767]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;7\&amp;quot;&amp;gt;&amp;lt;android.widget.EditText index=\&amp;quot;0\&amp;quot; text=\&amp;quot;MB07120121\&amp;quot; class=\&amp;quot;android.widget.EditText\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,651][1001,767]\&amp;quot; resource-id=\&amp;quot;username\&amp;quot; instance=\&amp;quot;0\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.view.View index=\&amp;quot;2\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,816][1001,932]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;8\&amp;quot;&amp;gt;&amp;lt;android.widget.EditText index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\&amp;quot; class=\&amp;quot;android.widget.EditText\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;true\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[137,827][825,924]\&amp;quot; resource-id=\&amp;quot;password\&amp;quot; instance=\&amp;quot;1\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button NAF=\&amp;quot;true\&amp;quot; index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[836,819][948,935]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;3\&amp;quot; text=\&amp;quot;LOGIN\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,1012][1001,1135]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;/&amp;gt;&amp;lt;android.view.View index=\&amp;quot;4\&amp;quot; text=\&amp;quot;Forgot Password?\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,1188][1080,1240]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;9\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;5\&amp;quot; text=\&amp;quot;Don&amp;apos;t have an account? Register\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[107,1320][973,1416]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;2\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;6\&amp;quot; text=\&amp;quot;By logging in I accept the terms and conditions\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,1413][1080,1465]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;3\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.view.View index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[1061,66][1075,2026]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;10\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.webkit.WebView&amp;gt;&amp;lt;/android.webkit.WebView&amp;gt;&amp;lt;/android.widget.FrameLayout&amp;gt;&amp;lt;/android.widget.LinearLayout&amp;gt;&amp;lt;/android.widget.FrameLayout&amp;gt;&amp;lt;/hierarchy&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110570</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;----------------------------- Page Information : \&amp;quot; + driver.getPageSource())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110570</millis>
+  <sequence>170</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAttribute(findTestObject(\&amp;quot;Login/Login\&amp;quot;), \&amp;quot;text\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:30</date>
+  <millis>1556881110575</millis>
+  <sequence>174</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111021</millis>
+  <sequence>175</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Login/Login&amp;apos; has attribute &amp;apos;text&amp;apos; is &amp;apos;LOGIN&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111021</millis>
+  <sequence>176</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAttribute(findTestObject(\&amp;quot;Login/Login\&amp;quot;), \&amp;quot;text\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111022</millis>
+  <sequence>177</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Click on Login button\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111023</millis>
+  <sequence>178</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on Login button</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111023</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Click on Login button\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111023</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Login/Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:31</date>
+  <millis>1556881111027</millis>
+  <sequence>184</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:32</date>
+  <millis>1556881112169</millis>
+  <sequence>185</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Login/Login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:32</date>
+  <millis>1556881112169</millis>
+  <sequence>186</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Login/Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:32</date>
+  <millis>1556881112169</millis>
+  <sequence>187</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/Choose a type of match\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:32</date>
+  <millis>1556881112173</millis>
+  <sequence>191</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118264</millis>
+  <sequence>192</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Home Page/Choose a type of match&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118265</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/Choose a type of match\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118265</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118269</millis>
+  <sequence>198</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118644</millis>
+  <sequence>199</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Home Page/More&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118644</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118645</millis>
+  <sequence>201</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:38</date>
+  <millis>1556881118648</millis>
+  <sequence>205</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:39</date>
+  <millis>1556881119993</millis>
+  <sequence>206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Home Page/More&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:39</date>
+  <millis>1556881119994</millis>
+  <sequence>207</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:39</date>
+  <millis>1556881119994</millis>
+  <sequence>208</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.my.keywords.android.ScrollToElement.scrollListToElementWithText(\&amp;quot;Events\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:50</date>
+  <millis>1556881130798</millis>
+  <sequence>209</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.my.keywords.android.ScrollToElement.scrollListToElementWithText is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:50</date>
+  <millis>1556881130799</millis>
+  <sequence>210</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.my.keywords.android.ScrollToElement.scrollListToElementWithText(\&amp;quot;Events\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:50</date>
+  <millis>1556881130799</millis>
+  <sequence>211</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;More Page/About\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:50</date>
+  <millis>1556881130803</millis>
+  <sequence>215</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:51</date>
+  <millis>1556881131285</millis>
+  <sequence>216</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/More Page/About&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:51</date>
+  <millis>1556881131285</millis>
+  <sequence>217</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;More Page/About\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:51</date>
+  <millis>1556881131285</millis>
+  <sequence>218</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">58</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:52</date>
+  <millis>1556881132287</millis>
+  <sequence>220</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:52</date>
+  <millis>1556881132287</millis>
+  <sequence>221</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:52</date>
+  <millis>1556881132287</millis>
+  <sequence>222</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;More Page/About\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">60</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:53</date>
+  <millis>1556881133996</millis>
+  <sequence>226</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/More Page/About&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:53</date>
+  <millis>1556881133996</millis>
+  <sequence>227</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;More Page/About\&amp;quot;), 5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:53</date>
+  <millis>1556881133996</millis>
+  <sequence>228</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;More Page/About_page_back_button\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">62</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:54</date>
+  <millis>1556881134013</millis>
+  <sequence>232</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:55</date>
+  <millis>1556881135815</millis>
+  <sequence>233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/More Page/About_page_back_button&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:55</date>
+  <millis>1556881135815</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;More Page/About_page_back_button\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:55</date>
+  <millis>1556881135815</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Checking About button functionality</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:55</date>
+  <millis>1556881135816</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Checking About button functionality</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:28:55</date>
+  <millis>1556881135817</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Checking_events</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Checking_events</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Checking_events</property>
+  <property name="source">\\home\\iauro-qa004\\Katalon Studio\\Anuroop hybrid app\\Test Cases\\Checking_events.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-03T16:28:55</date>
+  <millis>1556881135947</millis>
+  <sequence>239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176444</millis>
+  <sequence>242</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>appiumVersion = 1.8.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176448</millis>
+  <sequence>243</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceId = 461a88f3</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">461a88f3</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176449</millis>
+  <sequence>244</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceName = Xiaomi Redmi Note 5 Pro (Android 8.1.0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">Xiaomi Redmi Note 5 Pro (Android 8.1.0)</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176449</millis>
+  <sequence>245</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceModel = Redmi Note 5 Pro</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Redmi Note 5 Pro</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176449</millis>
+  <sequence>246</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceManufacturer = Xiaomi</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Xiaomi</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176449</millis>
+  <sequence>247</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176449</millis>
+  <sequence>248</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>deviceOSVersion = 8.1.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">8.1.0</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176450</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176450</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk\&amp;quot;, true)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176451</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Enter username\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176452</millis>
+  <sequence>252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Enter username</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176452</millis>
+  <sequence>253</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Enter username\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176452</millis>
+  <sequence>254</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/Username\&amp;quot;), \&amp;quot;MB07120121\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:36</date>
+  <millis>1556881176456</millis>
+  <sequence>258</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:41</date>
+  <millis>1556881181089</millis>
+  <sequence>259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;MB07120121&amp;apos; has been set to element &amp;apos;Object Repository/Login/Username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:41</date>
+  <millis>1556881181089</millis>
+  <sequence>260</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/Username\&amp;quot;), \&amp;quot;MB07120121\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:41</date>
+  <millis>1556881181089</millis>
+  <sequence>261</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : takeScreenshot(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:43</date>
+  <millis>1556881183993</millis>
+  <sequence>262</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Screenshot is taken</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184208</millis>
+  <sequence>263</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : takeScreenshot(\&amp;quot;/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184208</millis>
+  <sequence>264</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Enter password\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184211</millis>
+  <sequence>265</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Enter password</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184211</millis>
+  <sequence>266</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Enter password\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184211</millis>
+  <sequence>267</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;anuroop50\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184222</millis>
+  <sequence>271</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184987</millis>
+  <sequence>272</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;anuroop50&amp;apos; has been set to element &amp;apos;Object Repository/Login/Password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184987</millis>
+  <sequence>273</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login/Password\&amp;quot;), \&amp;quot;anuroop50\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:44</date>
+  <millis>1556881184987</millis>
+  <sequence>274</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189989</millis>
+  <sequence>276</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189990</millis>
+  <sequence>277</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189990</millis>
+  <sequence>278</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : driver = getDriver()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189990</millis>
+  <sequence>279</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : driver = getDriver()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189990</millis>
+  <sequence>280</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189991</millis>
+  <sequence>281</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:49</date>
+  <millis>1556881189991</millis>
+  <sequence>282</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : log.logInfo(\&amp;quot;----------------------------- Page Information : \&amp;quot; + driver.getPageSource())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190332</millis>
+  <sequence>283</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>----------------------------- Page Information : &amp;lt;?xml version=\&amp;quot;1.0\&amp;quot; encoding=\&amp;quot;UTF-8\&amp;quot;?&amp;gt;&amp;lt;hierarchy rotation=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.FrameLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.FrameLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,0][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.LinearLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.LinearLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,0][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.widget.FrameLayout index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.FrameLayout\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;android:id/content\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.webkit.WebView index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.webkit.WebView\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.webkit.WebView index=\&amp;quot;0\&amp;quot; text=\&amp;quot;Anuroop\&amp;quot; class=\&amp;quot;android.webkit.WebView\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;true\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;2\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;3\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;true\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,66][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;4\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,198][1080,2030]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;5\&amp;quot;&amp;gt;&amp;lt;android.view.View index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[319,198][761,561]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;6\&amp;quot;/&amp;gt;&amp;lt;android.view.View index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,651][1080,767]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;7\&amp;quot;&amp;gt;&amp;lt;android.widget.EditText index=\&amp;quot;0\&amp;quot; text=\&amp;quot;MB07120121\&amp;quot; class=\&amp;quot;android.widget.EditText\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,651][1001,767]\&amp;quot; resource-id=\&amp;quot;username\&amp;quot; instance=\&amp;quot;0\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.view.View index=\&amp;quot;2\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,816][1001,932]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;8\&amp;quot;&amp;gt;&amp;lt;android.widget.EditText index=\&amp;quot;0\&amp;quot; text=\&amp;quot;\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022\&amp;quot; class=\&amp;quot;android.widget.EditText\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;true\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[137,827][825,924]\&amp;quot; resource-id=\&amp;quot;password\&amp;quot; instance=\&amp;quot;1\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button NAF=\&amp;quot;true\&amp;quot; index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[836,819][948,935]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;0\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;3\&amp;quot; text=\&amp;quot;LOGIN\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[79,1012][1001,1135]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;1\&amp;quot;/&amp;gt;&amp;lt;android.view.View index=\&amp;quot;4\&amp;quot; text=\&amp;quot;Forgot Password?\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,1188][1080,1240]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;9\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;5\&amp;quot; text=\&amp;quot;Don&amp;apos;t have an account? Register\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[107,1320][973,1416]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;2\&amp;quot;/&amp;gt;&amp;lt;android.widget.Button index=\&amp;quot;6\&amp;quot; text=\&amp;quot;By logging in I accept the terms and conditions\&amp;quot; class=\&amp;quot;android.widget.Button\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;true\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;true\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[0,1413][1080,1465]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;3\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;android.view.View index=\&amp;quot;1\&amp;quot; text=\&amp;quot;\&amp;quot; class=\&amp;quot;android.view.View\&amp;quot; package=\&amp;quot;com.app.anuroop\&amp;quot; content-desc=\&amp;quot;\&amp;quot; checkable=\&amp;quot;false\&amp;quot; checked=\&amp;quot;false\&amp;quot; clickable=\&amp;quot;false\&amp;quot; enabled=\&amp;quot;true\&amp;quot; focusable=\&amp;quot;false\&amp;quot; focused=\&amp;quot;false\&amp;quot; scrollable=\&amp;quot;false\&amp;quot; long-clickable=\&amp;quot;false\&amp;quot; password=\&amp;quot;false\&amp;quot; selected=\&amp;quot;false\&amp;quot; bounds=\&amp;quot;[1061,66][1075,2026]\&amp;quot; resource-id=\&amp;quot;\&amp;quot; instance=\&amp;quot;10\&amp;quot;/&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.view.View&amp;gt;&amp;lt;/android.webkit.WebView&amp;gt;&amp;lt;/android.webkit.WebView&amp;gt;&amp;lt;/android.widget.FrameLayout&amp;gt;&amp;lt;/android.widget.LinearLayout&amp;gt;&amp;lt;/android.widget.FrameLayout&amp;gt;&amp;lt;/hierarchy&amp;gt;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190333</millis>
+  <sequence>284</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : log.logInfo(\&amp;quot;----------------------------- Page Information : \&amp;quot; + driver.getPageSource())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190334</millis>
+  <sequence>285</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : getAttribute(findTestObject(\&amp;quot;Login/Login\&amp;quot;), \&amp;quot;text\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190337</millis>
+  <sequence>289</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190741</millis>
+  <sequence>290</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Login/Login&amp;apos; has attribute &amp;apos;text&amp;apos; is &amp;apos;LOGIN&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190742</millis>
+  <sequence>291</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : getAttribute(findTestObject(\&amp;quot;Login/Login\&amp;quot;), \&amp;quot;text\&amp;quot;, 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190742</millis>
+  <sequence>292</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment(\&amp;quot;Click on Login button\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190743</millis>
+  <sequence>293</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on Login button</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190743</millis>
+  <sequence>294</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment(\&amp;quot;Click on Login button\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190743</millis>
+  <sequence>295</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Login/Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:50</date>
+  <millis>1556881190746</millis>
+  <sequence>299</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:51</date>
+  <millis>1556881191874</millis>
+  <sequence>300</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Login/Login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:51</date>
+  <millis>1556881191875</millis>
+  <sequence>301</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Login/Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:51</date>
+  <millis>1556881191875</millis>
+  <sequence>302</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/Choose a type of match\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:51</date>
+  <millis>1556881191880</millis>
+  <sequence>306</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196354</millis>
+  <sequence>307</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Home Page/Choose a type of match&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196355</millis>
+  <sequence>308</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/Choose a type of match\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196355</millis>
+  <sequence>309</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196358</millis>
+  <sequence>313</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196620</millis>
+  <sequence>314</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element &amp;apos;Object Repository/Home Page/More&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196621</millis>
+  <sequence>315</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementPresent(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196621</millis>
+  <sequence>316</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-05-03T16:29:56</date>
+  <millis>1556881196625</millis>
+  <sequence>320</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:57</date>
+  <millis>1556881197826</millis>
+  <sequence>321</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Home Page/More&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:57</date>
+  <millis>1556881197827</millis>
+  <sequence>322</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap(findTestObject(\&amp;quot;Home Page/More\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:29:57</date>
+  <millis>1556881197827</millis>
+  <sequence>323</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : com.my.keywords.android.ScrollToElement.scrollListToElementWithText(\&amp;quot;Events\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-05-03T16:30:07</date>
+  <millis>1556881207977</millis>
+  <sequence>324</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.lang.String</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:30:08</date>
+  <millis>1556881208007</millis>
+  <sequence>326</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>com.my.keywords.android.ScrollToElement.scrollListToElementWithText(\&amp;quot;Events\&amp;quot;) FAILED.\nReason:\njava.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.lang.String\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:161)\n\tat org.openqa.selenium.WebElement$getText$0.call(Unknown Source)\n\tat com.my.keywords.android.ScrollToElement.scrollListToElementWithText(ScrollToElement.groovy:39)\n\tat com.my.keywords.android.ScrollToElement.invokeMethod(ScrollToElement.groovy)\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)\n\tat Checking_events.run(Checking_events:54)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1556881002936.run(TempTestSuite1556881002936.groovy:36)\n</message>
+  <exception>
+    <message>java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.lang.String</message>
+    <frame>
+      <class>org.openqa.selenium.remote.RemoteWebElement</class>
+      <method>getText</method>
+      <line>161</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.WebElement$getText$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.my.keywords.android.ScrollToElement</class>
+      <method>scrollListToElementWithText</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.my.keywords.android.ScrollToElement</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>Checking_events</class>
+      <method>run</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1556881002936</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:30:08</date>
+  <millis>1556881208008</millis>
+  <sequence>327</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : com.my.keywords.android.ScrollToElement.scrollListToElementWithText(\&amp;quot;Events\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:30:08</date>
+  <millis>1556881208008</millis>
+  <sequence>329</sequence>
+  <logger>com.kms.katalon.core.logging.XmlKeywordLogger</logger>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Checking_events FAILED.\nReason:\njava.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.lang.String\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:161)\n\tat org.openqa.selenium.WebElement$getText$0.call(Unknown Source)\n\tat com.my.keywords.android.ScrollToElement.scrollListToElementWithText(ScrollToElement.groovy:39)\n\tat com.my.keywords.android.ScrollToElement.invokeMethod(ScrollToElement.groovy)\n\tat com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)\n\tat Checking_events.run(Checking_events:54)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1556881002936.run(TempTestSuite1556881002936.groovy:36)\n</message>
+  <exception>
+    <message>java.lang.ClassCastException: com.google.common.collect.Maps$TransformedEntriesMap cannot be cast to java.lang.String</message>
+    <frame>
+      <class>org.openqa.selenium.remote.RemoteWebElement</class>
+      <method>getText</method>
+      <line>161</line>
+    </frame>
+    <frame>
+      <class>org.openqa.selenium.WebElement$getText$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.my.keywords.android.ScrollToElement</class>
+      <method>scrollListToElementWithText</method>
+      <line>39</line>
+    </frame>
+    <frame>
+      <class>com.my.keywords.android.ScrollToElement</class>
+      <method>invokeMethod</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass</class>
+      <method>invokeStaticMethod</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>Checking_events</class>
+      <method>run</method>
+      <line>54</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>319</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>290</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>224</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>149</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1556881002936</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:30:08</date>
+  <millis>1556881208009</millis>
+  <sequence>330</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Checking_events</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-03T16:30:09</date>
+  <millis>1556881209667</millis>
+  <sequence>331</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/LoginScenario</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

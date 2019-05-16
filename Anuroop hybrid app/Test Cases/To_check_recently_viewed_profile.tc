@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To_check_recently_viewed_profile</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>b023dc90-7acc-4f30-badd-30ae42a759e7</testCaseGuid>
+</TestCaseEntity>

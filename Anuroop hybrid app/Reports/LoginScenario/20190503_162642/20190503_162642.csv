@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginScenario,,,2019-05-03 16:26:44,2019-05-03 16:30:09,3m - 25.111s,ERROR
+,,,,,,
+Test Cases/To check functionality of Contacts Viewed Profile,,,2019-05-03 16:26:44,2019-05-03 16:27:53,1m - 8.251s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-03 16:26:45,2019-05-03 16:27:21,36.692s,PASSED
+"comment(""Enter username"")",,,2019-05-03 16:27:21,2019-05-03 16:27:21,0.014s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-03 16:27:21,2019-05-03 16:27:26,4.682s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-03 16:27:26,2019-05-03 16:27:29,3.213s,PASSED
+"comment(""Enter password"")",,,2019-05-03 16:27:29,2019-05-03 16:27:29,0.002s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-03 16:27:29,2019-05-03 16:27:30,0.793s,PASSED
+delay(5),,,2019-05-03 16:27:30,2019-05-03 16:27:35,5.008s,PASSED
+driver = getDriver(),,,2019-05-03 16:27:35,2019-05-03 16:27:35,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-03 16:27:35,2019-05-03 16:27:35,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-03 16:27:35,2019-05-03 16:27:35,0.349s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-03 16:27:35,2019-05-03 16:27:36,0.449s,PASSED
+"comment(""Click on Login button"")",,,2019-05-03 16:27:36,2019-05-03 16:27:36,0.002s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-03 16:27:36,2019-05-03 16:27:37,1.096s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-03 16:27:37,2019-05-03 16:27:42,4.746s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-03 16:27:42,2019-05-03 16:27:43,0.849s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-03 16:27:43,2019-05-03 16:27:46,3.251s,PASSED
+"waitForElementPresent(findTestObject(""More Page/About""), 0)",,,2019-05-03 16:27:46,2019-05-03 16:27:47,0.849s,PASSED
+delay(1),,,2019-05-03 16:27:47,2019-05-03 16:27:48,1.002s,PASSED
+"tap(findTestObject(""More Page/Contacts Viewed Profile""), 5)",,,2019-05-03 16:27:48,2019-05-03 16:27:49,1.418s,PASSED
+delay(1),,,2019-05-03 16:27:49,2019-05-03 16:27:50,1.002s,PASSED
+"tap(findTestObject(""More Page/Contact Viewed Profiles back button""), 0)",,,2019-05-03 16:27:50,2019-05-03 16:27:53,2.434s,PASSED
+,,,,,,
+Test Cases/Checking About button functionality,,,2019-05-03 16:27:53,2019-05-03 16:28:55,1m - 2.749s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-03 16:27:53,2019-05-03 16:28:16,23.496s,PASSED
+"comment(""Enter username"")",,,2019-05-03 16:28:16,2019-05-03 16:28:16,0.002s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-03 16:28:16,2019-05-03 16:28:21,4.566s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-03 16:28:21,2019-05-03 16:28:24,3.203s,PASSED
+"comment(""Enter password"")",,,2019-05-03 16:28:24,2019-05-03 16:28:24,0.001s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-03 16:28:24,2019-05-03 16:28:25,0.783s,PASSED
+delay(5),,,2019-05-03 16:28:25,2019-05-03 16:28:30,5.007s,PASSED
+driver = getDriver(),,,2019-05-03 16:28:30,2019-05-03 16:28:30,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-03 16:28:30,2019-05-03 16:28:30,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-03 16:28:30,2019-05-03 16:28:30,0.332s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-03 16:28:30,2019-05-03 16:28:31,0.451s,PASSED
+"comment(""Click on Login button"")",,,2019-05-03 16:28:31,2019-05-03 16:28:31,0.001s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-03 16:28:31,2019-05-03 16:28:32,1.146s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-03 16:28:32,2019-05-03 16:28:38,6.096s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-03 16:28:38,2019-05-03 16:28:38,0.379s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-03 16:28:38,2019-05-03 16:28:39,1.349s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Events"")",,,2019-05-03 16:28:39,2019-05-03 16:28:50,10.805s,PASSED
+"waitForElementPresent(findTestObject(""More Page/About""), 0)",,,2019-05-03 16:28:50,2019-05-03 16:28:51,0.486s,PASSED
+delay(1),,,2019-05-03 16:28:51,2019-05-03 16:28:52,1.002s,PASSED
+"tap(findTestObject(""More Page/About""), 5)",,,2019-05-03 16:28:52,2019-05-03 16:28:53,1.709s,PASSED
+"tap(findTestObject(""More Page/About_page_back_button""), 0)",,,2019-05-03 16:28:53,2019-05-03 16:28:55,1.819s,PASSED
+,,,,,,
+Test Cases/Checking_events,,,2019-05-03 16:28:55,2019-05-03 16:30:08,1m - 12.192s,ERROR
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-03 16:28:55,2019-05-03 16:29:36,40.503s,PASSED
+"comment(""Enter username"")",,,2019-05-03 16:29:36,2019-05-03 16:29:36,0.001s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-03 16:29:36,2019-05-03 16:29:41,4.637s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-03 16:29:41,2019-05-03 16:29:44,3.119s,PASSED
+"comment(""Enter password"")",,,2019-05-03 16:29:44,2019-05-03 16:29:44,0.003s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-03 16:29:44,2019-05-03 16:29:44,0.776s,PASSED
+delay(5),,,2019-05-03 16:29:44,2019-05-03 16:29:49,5.003s,PASSED
+driver = getDriver(),,,2019-05-03 16:29:49,2019-05-03 16:29:49,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-03 16:29:49,2019-05-03 16:29:49,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-03 16:29:49,2019-05-03 16:29:50,0.342s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-03 16:29:50,2019-05-03 16:29:50,0.408s,PASSED
+"comment(""Click on Login button"")",,,2019-05-03 16:29:50,2019-05-03 16:29:50,0.001s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-03 16:29:50,2019-05-03 16:29:51,1.132s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-03 16:29:51,2019-05-03 16:29:56,4.480s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-03 16:29:56,2019-05-03 16:29:56,0.266s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-03 16:29:56,2019-05-03 16:29:57,1.206s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Events"")",,,2019-05-03 16:29:57,2019-05-03 16:30:08,10.181s,ERROR

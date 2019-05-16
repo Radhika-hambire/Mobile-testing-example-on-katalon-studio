@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginScenario,,,2019-04-25 10:29:57,2019-04-25 10:30:53,56.207s,PASSED
+,,,,,,
+Test Cases/LoginFlow,,,2019-04-25 10:29:57,2019-04-25 10:30:52,54.350s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-04-25 10:29:58,2019-04-25 10:30:39,41.578s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-04-25 10:30:39,2019-04-25 10:30:43,4.131s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-04-25 10:30:43,2019-04-25 10:30:45,1.237s,PASSED
+delay(5),,,2019-04-25 10:30:45,2019-04-25 10:30:50,5.041s,PASSED
+driver = getDriver(),,,2019-04-25 10:30:50,2019-04-25 10:30:50,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-04-25 10:30:50,2019-04-25 10:30:50,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-04-25 10:30:50,2019-04-25 10:30:50,0.396s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-04-25 10:30:50,2019-04-25 10:30:51,0.458s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-04-25 10:30:51,2019-04-25 10:30:52,1.171s,PASSED

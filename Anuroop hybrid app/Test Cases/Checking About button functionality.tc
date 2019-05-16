@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checking About button functionality</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>7ec6ec78-0375-4f9a-aa3b-81c77e434ec7</testCaseGuid>
+</TestCaseEntity>

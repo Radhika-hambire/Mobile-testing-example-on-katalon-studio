@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To_check_scroll_functionality_of_Search_Filter_page</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>83191af7-01a2-452a-9b85-18d967f600c2</testCaseGuid>
+</TestCaseEntity>

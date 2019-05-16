@@ -1,0 +1,2019 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 34457
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 35341
+[Appium]   tmpDir: /tmp/Katalon/Appium/Temp1556256506926
+[Appium] Appium REST http interface listener started on 0.0.0.0:34457
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 14 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi Redmi Note 5 Pro (Android 8.1.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"461a88f3"},"capabilities":{"desiredCapabilities":{"app":"/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi Redmi Note 5 Pro (Android 8.1.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"461a88f3"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: Xiaomi Redmi Note 5 Pro (Android 8.1.0)
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: 461a88f3
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[BaseDriver] Using local app '/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk'
+[AndroidDriver] Java version is: 1.8.0_201
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/home/iauro-qa004/.katalon/tools/android_sdk' (newest first):
+[ADB]     /home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0
+[ADB] Using adb from /home/iauro-qa004/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 461a88f3
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /home/iauro-qa004/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/emulator/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/tools/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0/apkanalyzer. Do you have the Android SDK installed at '/home/iauro-qa004/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.app.anuroop'
+[ADB] Main activity name: 'com.app.anuroop.MainActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0/apksigner
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 130 strings from '/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk' resources for '(default)' configuration
+[ADB] com.app.anuroop was not uninstalled, because it was not present on the device
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s 461a88f3 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.app.anuroop/com.app.anuroop.MainActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 94e16cbe-f391-497a-b65d-bb55cfdab31f added to master session list
+[HTTP] <-- POST /wd/hub/session 200 27561 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 6 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/timeouts
+[HTTP] {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/timeouts 400 12 ms - 4300
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size 200 36 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 85 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 70 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 32 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 105 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 42 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 36 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 41 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 40 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 43 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 39 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"username\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 1040 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 23 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 18 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 19 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 19 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/97a9afd5-5785-4ce6-b0a5-e69f343556c0/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/97a9afd5-5785-4ce6-b0a5-e69f343556c0/location 200 63 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/97a9afd5-5785-4ce6-b0a5-e69f343556c0/clear
+[HTTP] {"id":"97a9afd5-5785-4ce6-b0a5-e69f343556c0"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/97a9afd5-5785-4ce6-b0a5-e69f343556c0/clear 200 70 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/97a9afd5-5785-4ce6-b0a5-e69f343556c0/value
+[HTTP] {"id":"97a9afd5-5785-4ce6-b0a5-e69f343556c0","value":["MB07120121"]}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/97a9afd5-5785-4ce6-b0a5-e69f343556c0/value 200 345 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 3 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/contexts 200 204 ms - 112
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 250 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/screenshot 200 2446 ms - 1870412
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 216 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size 200 40 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"password\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 163 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 26 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 28 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 22 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 25 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/136f4134-4b12-4861-8416-ff9439dacd8b/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/136f4134-4b12-4861-8416-ff9439dacd8b/location 200 66 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/136f4134-4b12-4861-8416-ff9439dacd8b/clear
+[HTTP] {"id":"136f4134-4b12-4861-8416-ff9439dacd8b"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/136f4134-4b12-4861-8416-ff9439dacd8b/clear 200 55 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/136f4134-4b12-4861-8416-ff9439dacd8b/value
+[HTTP] {"id":"136f4134-4b12-4861-8416-ff9439dacd8b","value":["anuroop50"]}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/136f4134-4b12-4861-8416-ff9439dacd8b/value 200 335 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/source 200 353 ms - 8987
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size 200 36 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"LOGIN\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 101 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 21 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 25 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 25 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 36 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/98b82d97-14ec-483a-b06f-073937c15d21/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/98b82d97-14ec-483a-b06f-073937c15d21/location 200 63 ms - 89
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/98b82d97-14ec-483a-b06f-073937c15d21/attribute/text
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/98b82d97-14ec-483a-b06f-073937c15d21/attribute/text 200 567 ms - 79
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size 200 32 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"LOGIN\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 129 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 31 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 24 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 23 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 23 ms - 1201
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/3396008d-dcab-4c2c-85f5-14553b3adf7a/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/element/3396008d-dcab-4c2c-85f5-14553b3adf7a/location 200 59 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"3396008d-dcab-4c2c-85f5-14553b3adf7a","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 3396008d-dcab-4c2c-85f5-14553b3adf7a
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/touch/perform 200 775 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 329b00d3-6b98-491d-bf5e-6495761fca08 with 94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/window/current/size 200 25 ms - 100
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 88 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 44 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 86 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 4624 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 89 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 82 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 82 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 79 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 71 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 76 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 78 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 80 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 74 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 74 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 79 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 74 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 70 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 137 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 80 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 74 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 68 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 80 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 75 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 71 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 73 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 71 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 76 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 68 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 130 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 71 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 70 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 72 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 560 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 72 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 70 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 74 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 70 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 70 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 109 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 68 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 68 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 46 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 54 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 52 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 45 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 55 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 69 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 48 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 51 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 56 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 50 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 67 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 49 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 57 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 58 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 53 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 61 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 62 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 59 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 541 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 47 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 64 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 63 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 72 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 60 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 66 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"More\").resourceId(\"\").packageName(\"com.app.anuroop\")"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/elements 200 65 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 2 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/contexts 200 219 ms - 112
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 220 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/screenshot 200 1165 ms - 781922
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 233 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 2 ms - 84
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/contexts
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/contexts 200 211 ms - 112
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 217 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/screenshot 200 1164 ms - 781922
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context
+[HTTP] {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f/context 200 215 ms - 76
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f
+[HTTP] {}
+[Appium] Removing session 94e16cbe-f391-497a-b65d-bb55cfdab31f from our master session list
+[ADB] com.app.anuroop was successfully uninstalled
+[HTTP] <-- DELETE /wd/hub/session/94e16cbe-f391-497a-b65d-bb55cfdab31f 200 1788 ms - 76
+[HTTP] 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>to_check_who_viewed_my_contact</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>15c3b3e7-a476-4566-98bc-8e1e77033491</testCaseGuid>
+</TestCaseEntity>

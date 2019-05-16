@@ -1,0 +1,106 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 45404
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 39376
+[Appium]   tmpDir: /tmp/Katalon/Appium/Temp1557991117815
+[Appium] Appium REST http interface listener started on 0.0.0.0:45404
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 21 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 9 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/home/iauro-qa004/Katalon Studio/Anuroop app testing/AndroidApp/android-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi Redmi Note 5 Pro (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"461a88f3"},"capabilities":{"desiredCapabilities":{"app":"/home/iauro-qa004/Katalon Studio/Anuroop app testing/AndroidApp/android-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"Xiaomi Redmi Note 5 Pro (Android 8.1.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"461a88f3"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /home/iauro-qa004/Katalon Studio/Anuroop app testing/AndroidApp/android-debug.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: Xiaomi Redmi Note 5 Pro (Android 8.1.0)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: 461a88f3
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 65daada5-0e8f-44ae-9f17-1c388a01be12
+[BaseDriver] Using local app '/home/iauro-qa004/Katalon Studio/Anuroop app testing/AndroidApp/android-debug.apk'
+[AndroidDriver] Java version is: 1.8.0_201
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/home/iauro-qa004/.katalon/tools/android_sdk' (newest first):
+[ADB]     /home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0
+[ADB] Using adb from /home/iauro-qa004/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 461a88f3
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /home/iauro-qa004/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/emulator/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/tools/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0/apkanalyzer. Do you have the Android SDK installed at '/home/iauro-qa004/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.app.anuroop'
+[ADB] Main activity name: 'com.app.anuroop.MainActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /home/iauro-qa004/.katalon/tools/android_sdk/build-tools/29.0.0/apksigner
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 130 strings from '/home/iauro-qa004/Katalon Studio/Anuroop app testing/AndroidApp/android-debug.apk' resources for '(default)' configuration
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s 461a88f3 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.app.anuroop/com.app.anuroop.MainActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 65daada5-0e8f-44ae-9f17-1c388a01be12 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 16449 ms - 1203
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/timeouts 400 16 ms - 4300
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 875af299-1527-487f-b0c2-81d37db99cd4 with 65daada5-0e8f-44ae-9f17-1c388a01be12
+[HTTP] <-- GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/source 200 238 ms - 1821
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/screenshot 200 2788 ms - 2471460
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 875af299-1527-487f-b0c2-81d37db99cd4 with 65daada5-0e8f-44ae-9f17-1c388a01be12
+[HTTP] <-- GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/source 200 190 ms - 1827
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/screenshot 200 1841 ms - 1299530
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 875af299-1527-487f-b0c2-81d37db99cd4 with 65daada5-0e8f-44ae-9f17-1c388a01be12
+[HTTP] <-- GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/source 200 2126 ms - 191914
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12/screenshot 200 1875 ms - 1299534
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12
+[HTTP] {}
+[Appium] Removing session 65daada5-0e8f-44ae-9f17-1c388a01be12 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/65daada5-0e8f-44ae-9f17-1c388a01be12 200 247 ms - 76
+[HTTP] 

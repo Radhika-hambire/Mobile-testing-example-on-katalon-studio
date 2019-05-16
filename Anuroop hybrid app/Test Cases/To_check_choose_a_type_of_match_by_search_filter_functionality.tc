@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Applying search filter</description>
+   <name>To_check_choose_a_type_of_match_by_search_filter_functionality</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>f33d8fb7-8c3f-4c83-b4da-361c863e73ed</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>To_check_contacts_viewed_profile</name>
+   <tag></tag>
+   <comment>Enter username
+Enter password
+Click on Login button</comment>
+   <testCaseGuid>08e26990-f606-435e-97a9-fbf8a7993f0b</testCaseGuid>
+</TestCaseEntity>
