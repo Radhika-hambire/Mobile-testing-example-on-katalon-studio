@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginScenario,,,2019-05-16 15:39:11,2019-05-16 15:43:36,4m - 24.736s,FAILED
+,,,,,,
+Test Cases/To check functionality of Contacts Viewed Profile,,,2019-05-16 15:39:11,2019-05-16 15:40:52,1m - 40.573s,FAILED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-16 15:39:12,2019-05-16 15:40:52,1m - 40.128s,FAILED
+,,,,,,
+Test Cases/Checking About button functionality,,,2019-05-16 15:40:52,2019-05-16 15:42:23,1m - 31.431s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-16 15:40:52,2019-05-16 15:41:34,42.029s,PASSED
+"comment(""Enter username"")",,,2019-05-16 15:41:34,2019-05-16 15:41:34,0.032s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-16 15:41:34,2019-05-16 15:41:49,15.280s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-16 15:41:49,2019-05-16 15:41:53,3.238s,PASSED
+"comment(""Enter password"")",,,2019-05-16 15:41:53,2019-05-16 15:41:53,0.007s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-16 15:41:53,2019-05-16 15:41:54,1.206s,PASSED
+delay(5),,,2019-05-16 15:41:54,2019-05-16 15:41:59,5.006s,PASSED
+driver = getDriver(),,,2019-05-16 15:41:59,2019-05-16 15:41:59,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-16 15:41:59,2019-05-16 15:41:59,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-16 15:41:59,2019-05-16 15:41:59,0.490s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-16 15:41:59,2019-05-16 15:42:00,0.420s,PASSED
+"comment(""Click on Login button"")",,,2019-05-16 15:42:00,2019-05-16 15:42:00,0.004s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-16 15:42:00,2019-05-16 15:42:01,1.062s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-16 15:42:01,2019-05-16 15:42:06,5.062s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-16 15:42:06,2019-05-16 15:42:08,2.514s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-16 15:42:08,2019-05-16 15:42:10,1.313s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Events"")",,,2019-05-16 15:42:10,2019-05-16 15:42:18,8.334s,PASSED
+"waitForElementPresent(findTestObject(""More Page/About""), 0)",,,2019-05-16 15:42:18,2019-05-16 15:42:19,0.533s,PASSED
+delay(1),,,2019-05-16 15:42:19,2019-05-16 15:42:20,1.003s,PASSED
+"tap(findTestObject(""More Page/About""), 5)",,,2019-05-16 15:42:20,2019-05-16 15:42:22,2.268s,PASSED
+"tap(findTestObject(""More Page/About_page_back_button""), 0)",,,2019-05-16 15:42:22,2019-05-16 15:42:23,1.345s,PASSED
+,,,,,,
+Test Cases/Checking_events,,,2019-05-16 15:42:23,2019-05-16 15:43:34,1m - 10.311s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-16 15:42:23,2019-05-16 15:42:47,24.067s,PASSED
+"comment(""Enter username"")",,,2019-05-16 15:42:47,2019-05-16 15:42:47,0.002s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-16 15:42:47,2019-05-16 15:42:53,5.285s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-16 15:42:53,2019-05-16 15:42:56,3.168s,PASSED
+"comment(""Enter password"")",,,2019-05-16 15:42:56,2019-05-16 15:42:56,0.002s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-16 15:42:56,2019-05-16 15:42:57,1.192s,PASSED
+delay(5),,,2019-05-16 15:42:57,2019-05-16 15:43:02,5.002s,PASSED
+driver = getDriver(),,,2019-05-16 15:43:02,2019-05-16 15:43:02,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-16 15:43:02,2019-05-16 15:43:02,0.000s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-16 15:43:02,2019-05-16 15:43:03,0.756s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-16 15:43:03,2019-05-16 15:43:03,0.402s,PASSED
+"comment(""Click on Login button"")",,,2019-05-16 15:43:03,2019-05-16 15:43:03,0.001s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-16 15:43:03,2019-05-16 15:43:05,1.496s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-16 15:43:05,2019-05-16 15:43:11,6.572s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-16 15:43:11,2019-05-16 15:43:12,0.353s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-16 15:43:12,2019-05-16 15:43:13,1.337s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Events"")",,,2019-05-16 15:43:13,2019-05-16 15:43:21,7.935s,PASSED
+"waitForElementPresent(findTestObject(""More Page/Events""), 0)",,,2019-05-16 15:43:21,2019-05-16 15:43:21,0.442s,PASSED
+delay(1),,,2019-05-16 15:43:21,2019-05-16 15:43:22,1.002s,PASSED
+"tap(findTestObject(""More Page/Events""), 5)",,,2019-05-16 15:43:22,2019-05-16 15:43:24,1.262s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""May 26, 2019 Caste No Bar Thet Bhet Program @ Pune"")",,,2019-05-16 15:43:24,2019-05-16 15:43:32,8.405s,PASSED
+"tap(findTestObject(""EventsPage/Back_button""), 0)",,,2019-05-16 15:43:32,2019-05-16 15:43:34,1.463s,PASSED

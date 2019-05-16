@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginScenario,,,2019-05-16 15:59:03,2019-05-16 16:02:44,3m - 41.190s,PASSED
+,,,,,,
+Test Cases/Checking About button functionality,,,2019-05-16 15:59:03,2019-05-16 16:00:22,1m - 18.776s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-16 15:59:04,2019-05-16 15:59:43,39.572s,PASSED
+"comment(""Enter username"")",,,2019-05-16 15:59:43,2019-05-16 15:59:43,0.013s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-16 15:59:43,2019-05-16 15:59:49,5.352s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-16 15:59:49,2019-05-16 15:59:52,3.311s,PASSED
+"comment(""Enter password"")",,,2019-05-16 15:59:52,2019-05-16 15:59:52,0.002s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-16 15:59:52,2019-05-16 15:59:53,1.228s,PASSED
+delay(5),,,2019-05-16 15:59:53,2019-05-16 15:59:58,5.007s,PASSED
+driver = getDriver(),,,2019-05-16 15:59:58,2019-05-16 15:59:58,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-16 15:59:58,2019-05-16 15:59:58,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-16 15:59:58,2019-05-16 15:59:59,0.466s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-16 15:59:59,2019-05-16 15:59:59,0.410s,PASSED
+"comment(""Click on Login button"")",,,2019-05-16 15:59:59,2019-05-16 15:59:59,0.001s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-16 15:59:59,2019-05-16 16:00:00,1.161s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-16 16:00:00,2019-05-16 16:00:06,6.276s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-16 16:00:06,2019-05-16 16:00:07,0.340s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-16 16:00:07,2019-05-16 16:00:08,1.363s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Events"")",,,2019-05-16 16:00:08,2019-05-16 16:00:17,8.836s,PASSED
+"waitForElementPresent(findTestObject(""More Page/About""), 0)",,,2019-05-16 16:00:17,2019-05-16 16:00:17,0.439s,PASSED
+delay(1),,,2019-05-16 16:00:17,2019-05-16 16:00:18,1.002s,PASSED
+"tap(findTestObject(""More Page/About""), 5)",,,2019-05-16 16:00:18,2019-05-16 16:00:20,1.410s,PASSED
+"tap(findTestObject(""More Page/About_page_back_button""), 0)",,,2019-05-16 16:00:20,2019-05-16 16:00:22,2.146s,PASSED
+,,,,,,
+Test Cases/Checking_events,,,2019-05-16 16:00:22,2019-05-16 16:01:36,1m - 14.161s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-16 16:00:22,2019-05-16 16:00:45,22.797s,PASSED
+"comment(""Enter username"")",,,2019-05-16 16:00:45,2019-05-16 16:00:45,0.002s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-16 16:00:45,2019-05-16 16:00:50,5.135s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-16 16:00:50,2019-05-16 16:00:53,3.185s,PASSED
+"comment(""Enter password"")",,,2019-05-16 16:00:53,2019-05-16 16:00:53,0.002s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-16 16:00:53,2019-05-16 16:00:54,1.176s,PASSED
+delay(5),,,2019-05-16 16:00:54,2019-05-16 16:00:59,5.002s,PASSED
+driver = getDriver(),,,2019-05-16 16:00:59,2019-05-16 16:00:59,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-16 16:00:59,2019-05-16 16:00:59,0.000s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-16 16:00:59,2019-05-16 16:01:00,0.342s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-16 16:01:00,2019-05-16 16:01:00,0.424s,PASSED
+"comment(""Click on Login button"")",,,2019-05-16 16:01:00,2019-05-16 16:01:00,0.002s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-16 16:01:00,2019-05-16 16:01:02,1.692s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-16 16:01:02,2019-05-16 16:01:10,8.087s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-16 16:01:10,2019-05-16 16:01:11,0.517s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-16 16:01:11,2019-05-16 16:01:12,1.380s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Events"")",,,2019-05-16 16:01:12,2019-05-16 16:01:23,11.065s,PASSED
+"waitForElementPresent(findTestObject(""More Page/Events""), 0)",,,2019-05-16 16:01:23,2019-05-16 16:01:23,0.442s,PASSED
+delay(1),,,2019-05-16 16:01:23,2019-05-16 16:01:24,1.002s,PASSED
+"tap(findTestObject(""More Page/Events""), 5)",,,2019-05-16 16:01:24,2019-05-16 16:01:26,1.322s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""May 26, 2019 Caste No Bar Thet Bhet Program @ Pune"")",,,2019-05-16 16:01:26,2019-05-16 16:01:35,8.928s,PASSED
+"tap(findTestObject(""EventsPage/Back_button""), 0)",,,2019-05-16 16:01:35,2019-05-16 16:01:36,1.505s,PASSED
+,,,,,,
+Test Cases/To_check_contacts_viewed_profile,,,2019-05-16 16:01:36,2019-05-16 16:02:42,1m - 5.967s,PASSED
+"startApplication(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/android-debug.apk"", true)",,,2019-05-16 16:01:36,2019-05-16 16:01:59,22.917s,PASSED
+"comment(""Enter username"")",,,2019-05-16 16:01:59,2019-05-16 16:01:59,0.002s,PASSED
+"setText(findTestObject(""Login/Username""), ""MB07120121"", 0)",,,2019-05-16 16:01:59,2019-05-16 16:02:04,5.055s,PASSED
+"takeScreenshot(""/home/iauro-qa004/Katalon Studio/Anuroop hybrid app/AndroidApp/screenshot.png"")",,,2019-05-16 16:02:04,2019-05-16 16:02:07,3.202s,PASSED
+"comment(""Enter password"")",,,2019-05-16 16:02:07,2019-05-16 16:02:07,0.002s,PASSED
+"setText(findTestObject(""Login/Password""), ""anuroop50"", 0)",,,2019-05-16 16:02:07,2019-05-16 16:02:09,1.249s,PASSED
+delay(5),,,2019-05-16 16:02:09,2019-05-16 16:02:14,5.002s,PASSED
+driver = getDriver(),,,2019-05-16 16:02:14,2019-05-16 16:02:14,0.000s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),,,2019-05-16 16:02:14,2019-05-16 16:02:14,0.001s,PASSED
+"log.logInfo(""----------------------------- Page Information : "" + driver.getPageSource())",,,2019-05-16 16:02:14,2019-05-16 16:02:14,0.404s,PASSED
+"getAttribute(findTestObject(""Login/Login""), ""text"", 0)",,,2019-05-16 16:02:14,2019-05-16 16:02:15,0.382s,PASSED
+"comment(""Click on Login button"")",,,2019-05-16 16:02:15,2019-05-16 16:02:15,0.002s,PASSED
+"tap(findTestObject(""Login/Login""), 0)",,,2019-05-16 16:02:15,2019-05-16 16:02:16,1.077s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/Choose a type of match""), 0)",,,2019-05-16 16:02:16,2019-05-16 16:02:19,3.282s,PASSED
+"waitForElementPresent(findTestObject(""Home Page/More""), 0)",,,2019-05-16 16:02:19,2019-05-16 16:02:19,0.290s,PASSED
+"tap(findTestObject(""Home Page/More""), 0)",,,2019-05-16 16:02:19,2019-05-16 16:02:21,1.996s,PASSED
+delay(1),,,2019-05-16 16:02:21,2019-05-16 16:02:22,1.002s,PASSED
+"waitForElementPresent(findTestObject(""More Page/Contacts Viewed Profile""), 0)",,,2019-05-16 16:02:22,2019-05-16 16:02:23,1.151s,PASSED
+"tap(findTestObject(""More Page/Contacts Viewed Profile""), 0)",,,2019-05-16 16:02:23,2019-05-16 16:02:24,0.462s,PASSED
+"com.my.keywords.android.ScrollToElement.scrollListToElementWithText(""Pooja Mane WFI0317190124 Age 30 | 5.1 Ft | Hindu Joshi B-Tech In Civil Engineering, From Veermata Jijabai Technological Institute, Mumbai University | Graduate Design Co-Ordinator @ Leighton India Pvt.Ltd. | 6,00,000/Year Home - Mumbai, India Work - Mumbai, India"")",,,2019-05-16 16:02:24,2019-05-16 16:02:41,17.361s,PASSED
+"waitForElementPresent(findTestObject(""More Page/BackButton_Contact_Viewed_Profiles""), 0)",,,2019-05-16 16:02:41,2019-05-16 16:02:42,0.608s,PASSED
+"tap(findTestObject(""More Page/BackButton_Contact_Viewed_Profiles""), 0)",,,2019-05-16 16:02:42,2019-05-16 16:02:42,0.417s,PASSED
